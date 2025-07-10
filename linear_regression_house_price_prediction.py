@@ -158,7 +158,6 @@ input_array = np.array([user_input]).reshape(-1, 1)
 predicted_price = model.predict(input_array)
 print(f"Predicted Value: {predicted_price[0]:.2f}")
 
-pip install streamlit
 
 
 
